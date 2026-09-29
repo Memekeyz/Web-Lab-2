@@ -136,8 +136,5 @@ td, th {
 }
 
 @media screen and (max-width: 768px) {
-    body {
-      margin: 20px auto;
-      padding: 0 10px;
-    }
+    
 }
