@@ -19,10 +19,9 @@ nav a:active {
 
 body {
     font-family: Times New Roman, serif;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 680px;
-    margin-left: 680px;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
     background-color: darkslategray;
 }
 
