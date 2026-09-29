@@ -1,3 +1,11 @@
+.content-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 90%;
+    margin: 0 auto;
+}
+
 nav a:link {
     color: crimson;
     text-decoration: none;
@@ -137,21 +145,10 @@ td, th {
 }
 
 @media screen and (max-width: 768px) {
-    body {
-        padding: 10px;
-    }
-
-    .form {
-        width: 95%;           /* Gives slightly more room on tiny screens */
-        padding: 15px;
-    }
-
-    .form h2 {
-        font-size: 1.25rem;   /* Prevents long headings from wrapping awkwardly */
-    }
-
-    .form label, 
-    .form input {
-        font-size: 0.95rem;   /* Scaled-down text for readability on mobile */
+   .content-container {
+        flex-direction: column; /* Stacks elements top-to-bottom instead of side-by-side */
+        width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
     }
 }
