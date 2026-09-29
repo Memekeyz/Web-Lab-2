@@ -134,3 +134,18 @@ td, th {
   text-decoration: none;
   font-weight: bold;
 }
+
+@media screen and (max-width: 768px) {
+    body {
+        margin: 20px auto;
+        padding: 0 10px;
+    }
+
+    .item-selection {
+        flex-direction: column;
+    }
+
+    .item-column {
+        width: 100%;
+    }
+}
