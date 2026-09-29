@@ -151,4 +151,12 @@ td, th {
         padding: 0 15px;
         box-sizing: border-box;
     }
+
+    .content-container > div,
+    .content-container section,
+    .content-container img,
+    .content-container iframe {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
 }
