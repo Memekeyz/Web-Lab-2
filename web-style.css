@@ -140,4 +140,18 @@ td, th {
     body {
         padding: 10px;
     }
+
+    .form {
+        width: 95%;           /* Gives slightly more room on tiny screens */
+        padding: 15px;
+    }
+
+    .form h2 {
+        font-size: 1.25rem;   /* Prevents long headings from wrapping awkwardly */
+    }
+
+    .form label, 
+    .form input {
+        font-size: 0.95rem;   /* Scaled-down text for readability on mobile */
+    }
 }
