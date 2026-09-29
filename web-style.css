@@ -136,8 +136,8 @@ td, th {
 }
 
 @media screen and (max-width: 768px) {
-    nav a {
-      display: block;
-      margin: 10px 0;
+    body {
+      margin: 20px auto;
+      padding: 0 10px;
     }
 }
